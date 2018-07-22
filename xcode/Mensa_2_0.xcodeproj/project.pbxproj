@@ -1,0 +1,1019 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		017F2761ED9044D889608FC2 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 91A34BE050C2455FAD959388 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				28E7B251247844F5B10DF206 /* CMake Rules */,
+			);
+			dependencies = (
+				1FA2CBFDFDCC4998B87E0F54 /* PBXTargetDependency */,
+				E2A1764F340A4605B997A45B /* PBXTargetDependency */,
+				545E016315134CF9A2320DE1 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		6E8A6536CE0B423B892D943E /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 50F5F8705D674800B9A63C52 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				37D331A24C93442A93D9E438 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F3BFB1C4AEDC4A7AAFD13D5C /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9B1226FF20454A3EB5007E7E /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				25496B43CFC54FA0B1DAE6A4 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		14EA8BCACDA3473B911A32D9 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 8186D6B19DF240E994147BC3 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/main.cpp */; };
+		1BB894359E74453489B04775 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Ernaehrung.h */ = {isa = PBXBuildFile; fileRef = 3363A902105C439D92C8ADBF /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Ernaehrung.h */; };
+		211F8956285D4F99839E389D /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/main/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 796352D71C2B4FCDBE610C38 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/main/CMakeLists.txt */; };
+		2A5A835A62B64D2EACBF7917 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Lebensmittel.h */ = {isa = PBXBuildFile; fileRef = E6DF198B9781468F8177C175 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Lebensmittel.h */; };
+		52E8930DD7ED4D1BBF5EA3FD /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Gericht.h */ = {isa = PBXBuildFile; fileRef = 861A2AED1DE94DEE861CE84B /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Gericht.h */; };
+		5A0B20CFAB5946F4B0FABC90 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Zutat.h */ = {isa = PBXBuildFile; fileRef = ED9AAD5955744A6B8CACF878 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Zutat.h */; };
+		614203ABCA1B46C48F8D1DE2 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Gericht.h */ = {isa = PBXBuildFile; fileRef = 0B7C61F3D08C4F9E9C6E9EED /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Gericht.h */; };
+		8ECCAB5419804755B830B2A9 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Ernaehrung.cpp */ = {isa = PBXBuildFile; fileRef = 681C8A2D55CB49C9B0083334 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Ernaehrung.cpp */; };
+		984661FBC1FD455E9CF6A1E3 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Menue.h */ = {isa = PBXBuildFile; fileRef = B172A1D609CE4F67920DDCA8 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Menue.h */; };
+		9DB1BCB6BBEB47C8AA7C2562 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Gericht.cpp */ = {isa = PBXBuildFile; fileRef = 5343BEEA93D4464D88CE0BDF /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Gericht.cpp */; };
+		9E8BA7A397D64360B25AC891 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Ernaehrung.h */ = {isa = PBXBuildFile; fileRef = 0EE0021F99B944FC9AE2C3C2 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Ernaehrung.h */; };
+		A3E7D71E082644A4A1AD2448 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Gericht.cpp */ = {isa = PBXBuildFile; fileRef = 4A79D6FD068E484F8FEF9D22 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Gericht.cpp */; };
+		B2B6521684DF420EB156B2E4 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Lebensmittel.cpp */ = {isa = PBXBuildFile; fileRef = ABF2E4E469D447B5B97872B0 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Lebensmittel.cpp */; };
+		B89C205D2CDC4FDB920F6844 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Zutat.h */ = {isa = PBXBuildFile; fileRef = 9DBB4A23DF9D4075A6FA3837 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Zutat.h */; };
+		C5E39A8D9B404F8394384BF3 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/test.cpp */ = {isa = PBXBuildFile; fileRef = 88657439774F40B3A999FFDB /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/test.cpp */; };
+		D39A04F585D043069745B6B7 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Lebensmittel.cpp */ = {isa = PBXBuildFile; fileRef = 32FE275BE5FA48DC9A41CFA3 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Lebensmittel.cpp */; };
+		DD00A00654B14AA8BFE0589D /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Ernaehrung.cpp */ = {isa = PBXBuildFile; fileRef = CEC1D19866F646BFB28154D6 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Ernaehrung.cpp */; };
+		FBC7CC952CB541358C750685 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Lebensmittel.h */ = {isa = PBXBuildFile; fileRef = C94D6DC59243476F9399B6B0 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Lebensmittel.h */; };
+		FD4CF946FAE747D98F639EBA /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/test/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2442D2DDB3D04375979562CA /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/test/CMakeLists.txt */; };
+		FE242B5400204A0F9E4ED136 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Menue.h */ = {isa = PBXBuildFile; fileRef = C0C9E5D01F134815B0B2ECD3 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Menue.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		86851C6953394E6D9F781A88 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		8C546018DC954283804BBB23 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		A5281BAB1F184967A332D363 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		CCE0A796D5BB4586AFD33E7A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		384BEE17B2654F2383EBA142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1053B694EC2C4075A9258228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA4D2198D094FA7AE8B4551;
+			remoteInfo = TEST;
+		};
+		4FDFA9627BE94C4C9AE94399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1053B694EC2C4075A9258228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8A6536CE0B423B892D943E;
+			remoteInfo = ZERO_CHECK;
+		};
+		813E32F3E62D411ABBF14A74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1053B694EC2C4075A9258228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4994256844204FADA52111FF;
+			remoteInfo = MAIN;
+		};
+		BFD0F4F974F641238763EE85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1053B694EC2C4075A9258228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8A6536CE0B423B892D943E;
+			remoteInfo = ZERO_CHECK;
+		};
+		E2ECDD2764D54C2D981943C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1053B694EC2C4075A9258228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8A6536CE0B423B892D943E;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B7C61F3D08C4F9E9C6E9EED /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Gericht.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Gericht.h; path = ../include/Gericht.h; sourceTree = SOURCE_ROOT; };
+		0EE0021F99B944FC9AE2C3C2 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Ernaehrung.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Ernaehrung.h; path = ../include/Ernaehrung.h; sourceTree = SOURCE_ROOT; };
+		10B284F08D1F441D8D8CD581 /* TEST */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = TEST; sourceTree = BUILT_PRODUCTS_DIR; };
+		135AF85EC501444CBFD162A1 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2442D2DDB3D04375979562CA /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = test/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		32FE275BE5FA48DC9A41CFA3 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Lebensmittel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Lebensmittel.cpp; path = ../src/Lebensmittel.cpp; sourceTree = SOURCE_ROOT; };
+		3363A902105C439D92C8ADBF /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Ernaehrung.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Ernaehrung.h; path = ../include/Ernaehrung.h; sourceTree = SOURCE_ROOT; };
+		4A79D6FD068E484F8FEF9D22 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Gericht.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Gericht.cpp; path = ../src/Gericht.cpp; sourceTree = SOURCE_ROOT; };
+		5343BEEA93D4464D88CE0BDF /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Gericht.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Gericht.cpp; path = ../src/Gericht.cpp; sourceTree = SOURCE_ROOT; };
+		681C8A2D55CB49C9B0083334 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Ernaehrung.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ernaehrung.cpp; path = ../src/Ernaehrung.cpp; sourceTree = SOURCE_ROOT; };
+		796352D71C2B4FCDBE610C38 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/main/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = main/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8186D6B19DF240E994147BC3 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = ../src/main.cpp; sourceTree = SOURCE_ROOT; };
+		861A2AED1DE94DEE861CE84B /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Gericht.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Gericht.h; path = ../include/Gericht.h; sourceTree = SOURCE_ROOT; };
+		88657439774F40B3A999FFDB /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test.cpp; path = ../src/test.cpp; sourceTree = SOURCE_ROOT; };
+		8EDBD822D1554106A66B545E /* MAIN */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = MAIN; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DBB4A23DF9D4075A6FA3837 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Zutat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Zutat.h; path = ../include/Zutat.h; sourceTree = SOURCE_ROOT; };
+		ABF2E4E469D447B5B97872B0 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Lebensmittel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Lebensmittel.cpp; path = ../src/Lebensmittel.cpp; sourceTree = SOURCE_ROOT; };
+		B172A1D609CE4F67920DDCA8 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Menue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Menue.h; path = ../include/Menue.h; sourceTree = SOURCE_ROOT; };
+		C0C9E5D01F134815B0B2ECD3 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Menue.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Menue.h; path = ../include/Menue.h; sourceTree = SOURCE_ROOT; };
+		C94D6DC59243476F9399B6B0 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Lebensmittel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Lebensmittel.h; path = ../include/Lebensmittel.h; sourceTree = SOURCE_ROOT; };
+		CEC1D19866F646BFB28154D6 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Ernaehrung.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ernaehrung.cpp; path = ../src/Ernaehrung.cpp; sourceTree = SOURCE_ROOT; };
+		E6DF198B9781468F8177C175 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Lebensmittel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Lebensmittel.h; path = ../include/Lebensmittel.h; sourceTree = SOURCE_ROOT; };
+		ED9AAD5955744A6B8CACF878 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Zutat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Zutat.h; path = ../include/Zutat.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		019BA65956BA400FAEC88506 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E4231C214A08448C8507173A /* CMake Rules */,
+				135AF85EC501444CBFD162A1 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		0B3A5DD4E9E645CC8C362C29 = {
+			isa = PBXGroup;
+			children = (
+				019BA65956BA400FAEC88506 /* ALL_BUILD */,
+				69DAC9332CF24494ABC0AA58 /* MAIN */,
+				506491C770B44EAAA4BFDCBF /* TEST */,
+				6DB3B4B7D09946AEA9DA890A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FECCCB6825C47E7B4EFAC20 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1D19866F646BFB28154D6 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Ernaehrung.cpp */,
+				4A79D6FD068E484F8FEF9D22 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Gericht.cpp */,
+				ABF2E4E469D447B5B97872B0 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Lebensmittel.cpp */,
+				8186D6B19DF240E994147BC3 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		30BA78EE136F4B06812970B3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				681C8A2D55CB49C9B0083334 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Ernaehrung.cpp */,
+				5343BEEA93D4464D88CE0BDF /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Gericht.cpp */,
+				32FE275BE5FA48DC9A41CFA3 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Lebensmittel.cpp */,
+				88657439774F40B3A999FFDB /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/test.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		506491C770B44EAAA4BFDCBF /* TEST */ = {
+			isa = PBXGroup;
+			children = (
+				8E16CEE7D9DB4259BD64631D /* Header Files */,
+				30BA78EE136F4B06812970B3 /* Source Files */,
+				2442D2DDB3D04375979562CA /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/test/CMakeLists.txt */,
+			);
+			name = TEST;
+			sourceTree = "<group>";
+		};
+		69DAC9332CF24494ABC0AA58 /* MAIN */ = {
+			isa = PBXGroup;
+			children = (
+				6B873611991D41A6BE9AB13E /* Header Files */,
+				1FECCCB6825C47E7B4EFAC20 /* Source Files */,
+				796352D71C2B4FCDBE610C38 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/main/CMakeLists.txt */,
+			);
+			name = MAIN;
+			sourceTree = "<group>";
+		};
+		6B873611991D41A6BE9AB13E /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EE0021F99B944FC9AE2C3C2 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Ernaehrung.h */,
+				861A2AED1DE94DEE861CE84B /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Gericht.h */,
+				E6DF198B9781468F8177C175 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Lebensmittel.h */,
+				B172A1D609CE4F67920DDCA8 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Menue.h */,
+				9DBB4A23DF9D4075A6FA3837 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Zutat.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		6DB3B4B7D09946AEA9DA890A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EDBD822D1554106A66B545E /* MAIN */,
+				10B284F08D1F441D8D8CD581 /* TEST */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E16CEE7D9DB4259BD64631D /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				3363A902105C439D92C8ADBF /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Ernaehrung.h */,
+				0B7C61F3D08C4F9E9C6E9EED /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Gericht.h */,
+				C94D6DC59243476F9399B6B0 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Lebensmittel.h */,
+				C0C9E5D01F134815B0B2ECD3 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Menue.h */,
+				ED9AAD5955744A6B8CACF878 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/include/Zutat.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		E4231C214A08448C8507173A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA4D2198D094FA7AE8B4551 /* TEST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621B5734C33A43948B0A61FB /* Build configuration list for PBXNativeTarget "TEST" */;
+			buildPhases = (
+				335A8AAD3F7C4CAD8E754F76 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D5E7A0E5DC4482AA85B24E /* PBXTargetDependency */,
+			);
+			name = TEST;
+			productName = TEST;
+			productReference = 10B284F08D1F441D8D8CD581 /* TEST */;
+			productType = "com.apple.product-type.tool";
+		};
+		4994256844204FADA52111FF /* MAIN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9262CA60B99C4C80B51134D5 /* Build configuration list for PBXNativeTarget "MAIN" */;
+			buildPhases = (
+				BF11C39DE7EA4E28B40F84EC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ECB2EEC95834E2496CC5E7F /* PBXTargetDependency */,
+			);
+			name = MAIN;
+			productName = MAIN;
+			productReference = 8EDBD822D1554106A66B545E /* MAIN */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1053B694EC2C4075A9258228 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 717CC5774BB041C6AA4578BC /* Build configuration list for PBXProject "Mensa_2_0" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A5281BAB1F184967A332D363 /* Debug */,
+				86851C6953394E6D9F781A88 /* Release */,
+				CCE0A796D5BB4586AFD33E7A /* MinSizeRel */,
+				8C546018DC954283804BBB23 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 0B3A5DD4E9E645CC8C362C29;
+			projectDirPath = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake";
+			projectRoot = "";
+			targets = (
+				017F2761ED9044D889608FC2 /* ALL_BUILD */,
+				F3BFB1C4AEDC4A7AAFD13D5C /* RUN_TESTS */,
+				6E8A6536CE0B423B892D943E /* ZERO_CHECK */,
+				4994256844204FADA52111FF /* MAIN */,
+				3FA4D2198D094FA7AE8B4551 /* TEST */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25496B43CFC54FA0B1DAE6A4 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/abdullah/Desktop/Softwar\\ Engineering\\ Projekt\\ 2\\ 2/code/xcode -f /Users/abdullah/Desktop/Softwar\\ Engineering\\ Projekt\\ 2\\ 2/code/xcode/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		28E7B251247844F5B10DF206 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/abdullah/Desktop/Softwar\\ Engineering\\ Projekt\\ 2\\ 2/code/xcode -f /Users/abdullah/Desktop/Softwar\\ Engineering\\ Projekt\\ 2\\ 2/code/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		37D331A24C93442A93D9E438 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/abdullah/Desktop/Softwar\\ Engineering\\ Projekt\\ 2\\ 2/code/xcode -f /Users/abdullah/Desktop/Softwar\\ Engineering\\ Projekt\\ 2\\ 2/code/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		43AA64FD68B44C10BFB8EAE7 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A96A5448CE87496B8A98AE73 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AB8BA5B463754FAFAB0CF08A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335A8AAD3F7C4CAD8E754F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECCAB5419804755B830B2A9 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Ernaehrung.cpp */,
+				9DB1BCB6BBEB47C8AA7C2562 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Gericht.cpp */,
+				D39A04F585D043069745B6B7 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Lebensmittel.cpp */,
+				C5E39A8D9B404F8394384BF3 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/test.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF11C39DE7EA4E28B40F84EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD00A00654B14AA8BFE0589D /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Ernaehrung.cpp */,
+				A3E7D71E082644A4A1AD2448 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Gericht.cpp */,
+				B2B6521684DF420EB156B2E4 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/Lebensmittel.cpp */,
+				14EA8BCACDA3473B911A32D9 /* /Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0ECB2EEC95834E2496CC5E7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8A6536CE0B423B892D943E /* ZERO_CHECK */;
+			targetProxy = E2ECDD2764D54C2D981943C9 /* PBXContainerItemProxy */;
+		};
+		1FA2CBFDFDCC4998B87E0F54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4994256844204FADA52111FF /* MAIN */;
+			targetProxy = 813E32F3E62D411ABBF14A74 /* PBXContainerItemProxy */;
+		};
+		545E016315134CF9A2320DE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8A6536CE0B423B892D943E /* ZERO_CHECK */;
+			targetProxy = 4FDFA9627BE94C4C9AE94399 /* PBXContainerItemProxy */;
+		};
+		D8D5E7A0E5DC4482AA85B24E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8A6536CE0B423B892D943E /* ZERO_CHECK */;
+			targetProxy = BFD0F4F974F641238763EE85 /* PBXContainerItemProxy */;
+		};
+		E2A1764F340A4605B997A45B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA4D2198D094FA7AE8B4551 /* TEST */;
+			targetProxy = 384BEE17B2654F2383EBA142 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0214F3F5CB8B44D39E8F068D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1FD7E45E0A7E498E870EE848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		26B6BD990FCA40E1B9D774F3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/test\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/test\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/../include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TEST;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/test";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3B5BDC6DA28C4D6AB71018DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/build";
+			};
+			name = Release;
+		};
+		3CECCD76106C486BB9F9CA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3D5C316DB7204B0588C5A843 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/main\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/main\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/../include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MAIN;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/main";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3DEFF4E719D54AB28AC7F0E6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		431D1A2B757F4E43B78B259D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4F0AC77E32EE4E66AB0F8987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/main\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/main\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/../include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MAIN;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/main";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		51C6825DBD9947C3BB078A3C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/test\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/test\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/../include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TEST;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/test";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		520061024D07441888181CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6636D1A9DAAD4EBE91A5892C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		795E1CB40047439990857810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/test\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/test\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/../include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TEST;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/test";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		80E210C5302745D8A4A42F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/main\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/main\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/../include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MAIN;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/main";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		80FBA100378F4349AE26334E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/main\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/main\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/../include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MAIN;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/main";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		901992B9BA0D44678A0173AF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		987488D0A1964A9C845E33F9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		A1CCE48552804790B9E082F1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AA30141C6178496D8C6F1797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/build";
+			};
+			name = Debug;
+		};
+		B0BF6757559449A08E8535E1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		DE4211C9C59645BC84C18D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EA1DC3C4E8BA4109BC953B67 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F80F870BB5A84697A1FF1920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/test\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/test\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode\"","\"/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/cmake/../include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TEST;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/test";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		FA4ACE23B6C74848B12C2F19 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50F5F8705D674800B9A63C52 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CECCD76106C486BB9F9CA95 /* Debug */,
+				1FD7E45E0A7E498E870EE848 /* Release */,
+				431D1A2B757F4E43B78B259D /* MinSizeRel */,
+				FA4ACE23B6C74848B12C2F19 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		621B5734C33A43948B0A61FB /* Build configuration list for PBXNativeTarget "TEST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80F870BB5A84697A1FF1920 /* Debug */,
+				795E1CB40047439990857810 /* Release */,
+				26B6BD990FCA40E1B9D774F3 /* MinSizeRel */,
+				51C6825DBD9947C3BB078A3C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		717CC5774BB041C6AA4578BC /* Build configuration list for PBXProject "Mensa_2_0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA30141C6178496D8C6F1797 /* Debug */,
+				3B5BDC6DA28C4D6AB71018DE /* Release */,
+				B0BF6757559449A08E8535E1 /* MinSizeRel */,
+				987488D0A1964A9C845E33F9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		91A34BE050C2455FAD959388 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6636D1A9DAAD4EBE91A5892C /* Debug */,
+				0214F3F5CB8B44D39E8F068D /* Release */,
+				EA1DC3C4E8BA4109BC953B67 /* MinSizeRel */,
+				A1CCE48552804790B9E082F1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9262CA60B99C4C80B51134D5 /* Build configuration list for PBXNativeTarget "MAIN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0AC77E32EE4E66AB0F8987 /* Debug */,
+				80E210C5302745D8A4A42F15 /* Release */,
+				80FBA100378F4349AE26334E /* MinSizeRel */,
+				3D5C316DB7204B0588C5A843 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9B1226FF20454A3EB5007E7E /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE4211C9C59645BC84C18D93 /* Debug */,
+				520061024D07441888181CDC /* Release */,
+				901992B9BA0D44678A0173AF /* MinSizeRel */,
+				3DEFF4E719D54AB28AC7F0E6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1053B694EC2C4075A9258228 /* Project object */;
+}

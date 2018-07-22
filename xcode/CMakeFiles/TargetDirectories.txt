@@ -1,0 +1,7 @@
+/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/CMakeFiles/RUN_TESTS.dir
+/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/CMakeFiles/ZERO_CHECK.dir
+/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/main/CMakeFiles/RUN_TESTS.dir
+/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/main/CMakeFiles/MAIN.dir
+/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/test/CMakeFiles/RUN_TESTS.dir
+/Users/abdullah/Desktop/Softwar Engineering Projekt 2 2/code/xcode/test/CMakeFiles/TEST.dir
